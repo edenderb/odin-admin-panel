@@ -1,13 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Odin Admin Panel</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="top">
+        <div class="search">
+          <i class="fa fa-search"></i>
+          <span class="search-bar"
+            ><input type="text" name="search" id="search"
+          /></span>
+        </div>
+        <i class="fa fa-bell"></i>
+        <i class="fa fa-user"></i>
+        <span class="name">Odin Oakland</span>
+      </div>
+      <div class="logo">
+        <div class="name-display">
+          <i class="fa fa-user"></i>
+          <span class="greetings"
+            >Hi there,<br />
+            <h3>Odin Oakland (@Odin)</h3></span
+          >
+        </div>
+        <button class="new">New</button>
+        <button class="upload">Upload</button>
+        <button class="share">Share</button>
+      </div>
+    </header>
+    <nav>
+      <div class="title">
+        <i class="fa fa-dashboard"></i>
+        <span class="dashboard">Dashboard</span>
+      </div>
+      <div class="list">
+        <ul>
+          <li><i class="fa fa-home"></i> <a href="home">Home</a></li>
+          <li>
+            <i class="fa fa-user-circle-o"></i> <a href="home">Profile</a>
+          </li>
+          <li><i class="fa fa-inbox"></i> <a href="home">Messages</a></li>
+          <li><i class="fa fa-history"></i> <a href="home">History</a></li>
+          <li><i class="fa fa-tasks"></i> <a href="home">Tasks</a></li>
+          <li>
+            <i class="fa fa-handshake-o"></i> <a href="home">Communities</a>
+          </li>
+        </ul>
+      </div>
+      <div class="setting-list">
+        <ul>
+          <li><i class="fa fa-cog"></i> <a href="setting">Settings</a></li>
+          <li><i class="fa fa-support"></i> <a href="setting">Support</a></li>
+          <li><i class="fa fa-shield"></i> <a href="setting">Privacy</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects">
+          <div class="project">
+            <div class="detail">
+              <h3>Super Cool project</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
+                sint. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+              </p>
+            </div>
+            <div class="icon">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-comment"></i>
+              <i class="fa fa-share"></i>
+            </div>
+          </div>
+          <div class="project">
+            <div class="detail">
+              <h3>Money Maker</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
+                sint. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Repellat, quibusdam quasi? Vero reiciendis sapiente dolorem.
+              </p>
+            </div>
+            <div class="icon">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-comment"></i>
+              <i class="fa fa-share"></i>
+            </div>
+          </div>
+          <div class="project">
+            <div class="detail">
+              <h3>Less Cool project</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
+                sint. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                Lorem ipsum dolor sit amet.
+              </p>
+            </div>
+            <div class="icon">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-comment"></i>
+              <i class="fa fa-share"></i>
+            </div>
+          </div>
+          <div class="project">
+            <div class="detail">
+              <h3>Impossible App</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
+                sint. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corrupti, obcaecati.
+              </p>
+            </div>
+            <div class="icon">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-comment"></i>
+              <i class="fa fa-share"></i>
+            </div>
+          </div>
+          <div class="project">
+            <div class="detail">
+              <h3>Easy Peasy App</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
+                sint. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                Lorem, ipsum dolor.
+              </p>
+            </div>
+            <div class="icon">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-comment"></i>
+              <i class="fa fa-share"></i>
+            </div>
+          </div>
+          <div class="project">
+            <div class="detail">
+              <h3>Ad Blocker</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
+                sint. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+              </p>
+            </div>
+            <div class="icon">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-comment"></i>
+              <i class="fa fa-share"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="announcements">
+        <h2>Announcements</h2>
+        <div class="content">
+          <h4>Site Maintenance</h4>
+          <p>Lorem ipsum dolor sit. Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="content">
+          <h4>Community Share Day</h4>
+          <p>
+            Lorem ipsum dolor sit. Lorem ipsum dolor sit amet. Lorem, ipsum
+            dolor.
+          </p>
+        </div>
+        <div class="content">
+          <h4>Upload Privacy Policy</h4>
+          <p>
+            Lorem ipsum dolor sit. Lorem ipsum dolor sit amet. Lorem ipsum dolor
+            sit amet.
+          </p>
+        </div>
+      </div>
+      <div class="trending">
+        <h2>Trending</h2>
+        <div class="trending-accounts">
+          <div class="pic"><i class="fa fa-user"></i></div>
+          <div class="trending-name"><h3>@anjali</h3></div>
+        </div>
+        <div class="trending-accounts">
+          <div class="pic"><i class="fa fa-user"></i></div>
+          <div class="trending-name"><h3>@ravi</h3></div>
+        </div>
+        <div class="trending-accounts">
+          <div class="pic"><i class="fa fa-user"></i></div>
+          <div class="trending-name"><h3>@sagun</h3></div>
+        </div>
+        <div class="trending-accounts">
+          <div class="pic"><i class="fa fa-user"></i></div>
+          <div class="trending-name"><h3>@kabita</h3></div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
